@@ -1,0 +1,4 @@
+name = BB Code text filter
+description = This module includes a text filter that takes BB code and converts them to HTML
+core = 7.x
+files[] = bb_filter.module
