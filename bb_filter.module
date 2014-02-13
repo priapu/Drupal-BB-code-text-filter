@@ -14,7 +14,7 @@
 function bb_filter_filter_info() {
   $filters = array();
   $filters['bb_filter'] = array(
-    'title' => t('BB Code formatter (doh)'),
+    'title' => t('BB Code formatter'),
     'description' => t('This filter takes BB code and converts them to HTML.'),
     'process callback' => '_bb_filter_process',
   );
